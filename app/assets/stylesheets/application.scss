@@ -15,6 +15,7 @@
  *= require_self
  */
 
+
 body {
   padding: 0;
   margin: 0;
@@ -48,6 +49,7 @@ body {
     font-weight: lighter;
   }
 }
+
 
 .container {
   margin: 20px;
@@ -153,4 +155,97 @@ body {
       display: inline;
     }
   }
+}
+
+@media only screen and (max-width: 480px) {
+
+.hero-header {
+  
+  height: 200px;
+  color: yellow;
+  
+  .main-text {
+    letter-spacing: 1px;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .sub-text {
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+}
+
+.para-one {
+  width: 100%;
+  float: left;
+}
+
+.para-two {
+  width: 100%;
+  float: left;
+}
+
+  .menu {
+    width:100%;
+    background:#ff5a5f;
+  }
+
+.menu ul {
+  display:inline-block;
+}
+ 
+.menu li {
+  margin:0px 50px 0px 0px;
+  float:left;
+  list-style:none;
+  font-size: small;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+ 
+.menu li:last-child {
+  margin-right:0px;
+}
+ 
+.menu a {
+  color:#fff;
+  transition:color linear 0.15s;
+  text-decoration: none;
+}
+ 
+.menu a:hover, .menu .current-item a {
+  text-decoration:none;
+  color:#303030;
+}
+.menu {
+  width:100%;
+  background:#ff5a5f;
+}
+ 
+.menu ul {
+  display:none;
+}
+ 
+.menu li {
+  margin:0px 50px 0px 0px;
+  float:left;
+  list-style:none;
+  font-size:17px;
+}
+ 
+.menu li:last-child {
+  margin-right:0px;
+}
+ 
+.menu a {
+  color:#fff;
+  transition:color linear 0.15s;
+  text-decoration: none;
+}
+ 
+.menu a:hover, .menu .current-item a {
+  text-decoration:none;
+  color:#303030;
+}
+    
 }
